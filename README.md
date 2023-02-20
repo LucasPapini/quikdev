@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# Detalhes do projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido para o teste de front-end na empresa Quikdev, para validação de competências no desenvolvimento de interfaces.
 
-## Available Scripts
+Para iniciar esse projeto eu separei as tecnologias do ecossistema do Reactjs que eu tenho mais costume de trabalhar, então o projeto se desenvolveu com bodyplate do Reactjs com typescript, Styled-components, Google Fonts, Miragejs, Redix UI e o Axios.
 
-In the project directory, you can run:
+Tomei liberdade e criei um pequeno wireframe de média fidelidade para ilustrar o desenvolvimento do sistema, e também demonstra o meu conhecimento em reprodução de interface, onde consigo entregar 100% do que foi criado no figma. Segue link para download das imagens do projeto: https://drive.google.com/file/d/167mMKBjGLHxAK5Alcry8HL7ndISqH-QS/view?usp=sharing.
 
-### `yarn start`
+Mesmo que foi cedida uma “API” eu não consegui entender o modo de implementá-la no projeto, e a documentação que tem só mostra como fazer as chamadas dos endpoints (no que eu entendi).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Fiquei um tempo pesquisando qual ferramenta ajudaria a usar a API, json serve, Mocks Service etc, mas não estava fazendo o que realmente importava, que era dar início no desenvolvimento front-end da aplicação. Então tomei a liberdade de fazer uma pequena api com Miragejs para dar continuidade no projeto e consumir os dados.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Além do Miragens fiz um mock para o funcionamento do login, logout e cadastro. Para acessar o sistema basta preencher o campo nome de usuário (com qualquer nome), e a senha basta colocar 123 que a validação para ver a existência do usuário é feito na senha, caso a senha seja 123 o pequeno sistema autêntica e faz o redirecionamento para a página de dashboard. Caso queira cadastrar um usuário pode acessar a página de cadastro que lá também funciona.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Como dei início no projeto no sábado a noite, por motivos de está de mudança e literalmente não ter um casa para poder coda, teve alguns pontos que faltaram, e para não atrasar mais a entrega eu estou entregando o projeto assim, creio que eu fiz já será o suficiente para análise de habilidade. Ta mais que pontos são esses? - Bom, é a parte de editar e excluir um post, mas todo o resto está feito.
